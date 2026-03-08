@@ -1,6 +1,7 @@
 import { GoogleGenAI, Type, GenerateContentResponse, ThinkingLevel } from "@google/genai";
 
-const API_KEY = process.env.GEMINI_API_KEY;
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || import.meta.env.GEMINI_API_KEY || "";
+const GITHUB_API_KEY = import.meta.env.VITE_GITHUB_API_KEY || import.meta.env.GITHUB_API_KEY || "";
 
 export interface TrueUpItem {
   particulars: string;
