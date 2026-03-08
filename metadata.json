@@ -1,0 +1,5 @@
+{
+  "name": "KSERC Audit Portal",
+  "description": "Official regulatory intelligence terminal for KSERC Truing Up analysis and audit reporting.",
+  "requestFramePermissions": []
+}
